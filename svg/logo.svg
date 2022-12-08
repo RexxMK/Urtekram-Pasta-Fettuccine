@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_2" data-name="Lag 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 345.87 64.64">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        font-family: Helvetica-Light, Helvetica;
+        font-size: 18px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #f3d1b3;
+      }
+
+      .cls-4 {
+        fill: #f4d1b3;
+        font-family: Helvetica, Helvetica;
+        font-size: 36px;
+      }
+
+      .cls-3 {
+        stroke: #f4d1b3;
+        stroke-miterlimit: 10;
+        stroke-width: .75px;
+      }
+    </style>
+  </defs>
+  <g id="Lag_1-2" data-name="Lag 1">
+    <text class="cls-4" transform="translate(72.07 30.91)"><tspan x="0" y="0">U</tspan><tspan class="cls-1" x="26" y="0">R</tspan><tspan x="51.36" y="0">TEKRAM</tspan></text>
+    <text class="cls-2" transform="translate(115.36 58.25)"><tspan x="0" y="0">always organic</tspan></text>
+    <line class="cls-3" x1="289.21" y1="18.27" x2="345.87" y2="18.27"/>
+    <line class="cls-3" y1="18.27" x2="56.67" y2="18.27"/>
+  </g>
+</svg>
