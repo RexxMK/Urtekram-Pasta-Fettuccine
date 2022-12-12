@@ -7,6 +7,12 @@
     <title>Konkurrence</title>
 
     <link rel="stylesheet" href="styles.css">
+    <style>
+        main{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
 
 <body>
@@ -23,9 +29,55 @@
     <!--MAIN-->
     <main>
 
-    <!--OVERSKIFT OG INDHOLD-->
-    <h1>Konkurrence</h1>
+        <section>
 
+            <!--OVERSKIFT OG INDHOLD-->
+            <h1>Konkurrence</h1>
+
+            <h2>vind en kogebog</h2>
+
+            <p>Vær med i lodtrækningen om en kogebog, fyldt med lækre pastaretter, til den travle hverdag</p>
+
+        </section>
+
+    
+    <div id="konkurrence">
+
+        <div id="question">
+            <p>Hvilket af følgende er <span style="font-weight: bold; text-decoration-line: underline;">ikke</span> sandt om Urtekram Pasta Fettuccine?</p>
+            <!--Denne brug af span kommer fra w3schools.com -> https://www.w3schools.com/tags/tag_span.asp-->
+
+            <label>
+                <span>Det er økologisk</span> <input type="checkbox">
+            </label>
+            <br>
+            <label>
+                <span>Det er fuldkornspasta</span> <input type="checkbox">
+            </label>
+            <br>
+            <label>
+                <span>Det er støbt i kobberforme</span> <input type="checkbox">
+            </label>
+            <!--Denne brug af label/input kommer fra w3schools.com -> https://www.w3schools.com/tags/att_input_type_checkbox.asp-->
+        </div>
+  
+        <div id="deltag">
+            <form>
+                <label>Fulde navn:</label>
+                <input type="text">
+            <br>
+                <label>Email:</label>
+                <input type="text">
+            </form>
+            <!--Denne brug af form/input kommer fra w3schools.com -> https://www.w3schools.com/html/html_form_attributes.asp-->
+
+            <label>
+                <input type="checkbox">
+                <span>Jeg accepterer konkurrencebetingelserne og at Midsona AB må kontakte mig via e-mail, med henblik på udlevering af gevinst.</span>
+            </label>
+        </div>
+        
+    </div>
    
 
     </main>
