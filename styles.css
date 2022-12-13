@@ -421,3 +421,144 @@ form input{
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
+
+
+/*MEDIA QUERIES*/
+
+/*MOBIL*/ 
+
+@media screen and (max-width: 768px){ 
+
+    /*REGLER FOR MAIN*/
+    main{
+        padding-top: 30%;
+        padding-bottom: 10%;
+    }
+
+
+
+    /*SKRIFTREGLER*/
+    h1{
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 5vw;
+    }
+
+    h3{
+        font-size: 4vw;
+        padding-bottom: 6%;
+    }
+
+    p, td{
+        font-size: 2.8vw;
+        line-height: 180%;
+    }
+
+    p{
+        padding-bottom: 2%;
+    }    
+
+
+
+    /*HEADER*/
+    header{
+        width: 100%;
+        height: 110px;
+    }
+
+
+
+    /*LOGO*/
+    header a img{
+        width: 70%;
+        margin-top: 12%;
+        margin-left: 15%;
+    }
+
+
+    
+    /*NAV/MENU*/
+    nav{
+        padding-top: 40%;
+        
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav h2{
+        padding-bottom: 70px;
+    }
+
+
+
+    /*PASTA FETTUCCINE*/
+    .main_indhold{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main_indhold div{
+        width: 100%;
+    }
+
+    .main_indhold h3{
+        padding-top: 15%;
+    }
+
+    #fettuccine img{
+        width: 100%;
+
+        padding-bottom: 10%;
+    }
+
+    .main_indhold_left{
+        padding-right: 0;
+        padding-top: 0;
+    }
+
+    .main_indhold_right{
+        padding-top: 0%;
+    }
+
+
+
+    /*NÆRINGSINDHOLD*/
+    #fettuccine_bottom{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .tables{
+        width: 100%;
+    }
+
+    .list{
+        padding-top: 4%;
+    }
+
+
+
+    /*MÆRKNINGER*/
+    #eco_marks{
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+
+    #eco_marks img{
+        width: 70%;
+    }
+
+    #eu_organic{
+        padding-right: 0;
+        padding-left: 17%;
+        padding-top: 25%;
+    }
+
+    #debio{
+        padding-top: 21.5%;
+    }
+}
