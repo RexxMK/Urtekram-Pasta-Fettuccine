@@ -50,10 +50,13 @@
             <label>
                 <span>Det er økologisk</span> <input type="checkbox">
             </label>
+            <!--Jeg kunne ikke få afstandene til at fungere, derfor bruger jeg <br> som løsning-->
+            <br>
             <br>
             <label>
                 <span>Det er fuldkornspasta</span> <input type="checkbox">
             </label>
+            <br>
             <br>
             <label>
                 <span>Det er støbt i kobberforme</span> <input type="checkbox">
@@ -63,21 +66,31 @@
   
         <div id="deltag">
             <form>
-                <label>Fulde navn:</label>
+                <label>Navn:</label>
                 <input type="text">
-            <br>
+            </form>
+
+            <form>
                 <label>Email:</label>
                 <input type="text">
             </form>
             <!--Denne brug af form/input kommer fra w3schools.com -> https://www.w3schools.com/html/html_form_attributes.asp -->
 
-            <label>
+            <label id="betingelser">
                 <input type="checkbox">
-                <span>Jeg accepterer konkurrencebetingelserne og at Midsona AB må kontakte mig via e-mail, med henblik på udlevering af gevinst.</span>
+                <span>Jeg accepterer konkurrencebetingelserne og at Midsona AB må <br> kontakte mig via e-mail, med henblik på udlevering af gevinst.</span>
             </label>
+
+            <a href="">Læs konkurrencebetingelserne</a>
+
+
+            <!--DELTAG KNAP-->
+            <button class="deltag_button">Deltag</button>
         </div>
         
     </div>
+
+    <div id="white_space"></div>
    
 
     </main>
