@@ -39,7 +39,7 @@ h3{
 }
 
 p, td{
-    font-size: 2.8vw;
+    font-size: 0.9vw;
     line-height: 180%;
 }
 
@@ -396,6 +396,26 @@ form input{
 
 
 /*OM URTEKRAM*/
+.main_indhold_img_right{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 9%;
+}
+
+.main_indhold_img_right div{
+    width: 50%;
+}
+
+.main_indhold_img_right h3{
+    display: flex;
+    justify-content: center;
+}
+
+.main_indhold_img_right img{
+    border: 1px solid black;
+    width: 100%;
+}
+
 .img_right{
     padding-left: 8%;
 }
@@ -407,6 +427,11 @@ form input{
 .main_indhold img{
     border: 1px solid black;
     width: 100%;
+}
+
+#uden_pesticider_span{
+    font-weight: bold; 
+    font-size: 1vw;
 }
 
 .read_more_button{
@@ -651,11 +676,10 @@ form input{
     
     form label{
         font-size: 2.8vw;
-        padding-left: 20%;
     }
     
     form input{
-        width: 60%;
+        width: 80%;
     
         padding-top: 3%;
         padding-bottom: 3%;
@@ -676,7 +700,7 @@ form input{
     #deltag a{
         font-size: 2vw;
     
-        padding-left: 25%;
+        padding-left: 23%;
     }
     
     .deltag_button{
@@ -695,7 +719,50 @@ form input{
     }
     
     #white_space{
-        height: 140px;
+        height: 80px;
+    }
+
+
+
+
+
+
+
+    /*OM URTEKRAM*/
+    .main_indhold_img_right{
+        flex-wrap: wrap-reverse;
+    }
+
+    .main_indhold_img_right div{
+        width: 100%;
+    }
+
+    .main_indhold_img_right h3{
+        padding-top: 15%;
+    }
+    
+    #uden_pesticider_span{
+        font-size: 3vw;
+    }
+
+    .img_right{
+        padding-left: 0;
+    }
+
+    .img_left{
+        padding-right: 0;
+    }
+
+    .read_more_button{
+        margin-left: 0;
+        margin-top: 7%;
+    }
+
+    .read_more_button .button{
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 3%;
+        padding-bottom: 3%;
     }
 
 }
