@@ -266,7 +266,7 @@ nav{
 }
 
 #cards img{
-    border: 1px solid black;
+    border: 1px solid #2E3959;
     box-shadow: 2px 2px 5px #2E3959;
     width: 100%;
 }
@@ -314,7 +314,7 @@ nav{
 .opskrift_indhold img{
     width: 100%;
     box-shadow: 2px 2px 5px #2E3959;
-    border: 1px solid black;
+    border: 1px solid #2E3959;
     margin-bottom: 30%;
 }
 
@@ -486,7 +486,7 @@ form input{
 }
 
 .main_indhold_img_right img{
-    border: 1px solid black;
+    border: 1px solid #2E3959;
     width: 100%;
 }
 
@@ -499,7 +499,7 @@ form input{
 }
 
 .main_indhold img{
-    border: 1px solid black;
+    border: 1px solid #2E3959;
     width: 100%;
 }
 
@@ -786,6 +786,10 @@ form input{
     .ingredienser_list{
         padding-left: 13%;
         padding-right: 13%;
+    }
+
+    .ingredienser_list span{
+        font-weight: bold;
     }
 
     
