@@ -16,7 +16,7 @@ main{
 
 
 /*SKRIFTREGLER*/
-a, h1, h2, h3, p, td, span, label{
+a, h1, h2, h3, p, td, span, label, li{
     color: black;
     font-family: helvetica neue;
     text-decoration: none;
@@ -38,7 +38,7 @@ h3{
     padding-bottom: 6%;
 }
 
-p, td{
+p, td, li{
     font-size: 0.9vw;
     line-height: 180%;
 }
@@ -267,6 +267,7 @@ nav{
 
 #cards img{
     border: 1px solid black;
+    box-shadow: 2px 2px 5px #2E3959;
     width: 100%;
 }
 
@@ -295,6 +296,79 @@ nav{
     background-color: #e2e2e2;
     font-size: 0.9vw;
 }
+
+
+
+
+
+/*OPSKRIFT*/
+.opskrift_indhold{
+    display: flex;
+    justify-content: space-between;
+}
+
+.opskrift_indhold div{
+    width: 50%;
+}
+
+.opskrift_indhold img{
+    width: 100%;
+    box-shadow: 2px 2px 5px #2E3959;
+    border: 1px solid black;
+    margin-bottom: 30%;
+}
+
+.opskrift_indhold_right{
+    margin-left: 12%;
+}
+
+.opskrift_indhold_right h1{
+    padding-top: 17%;
+}
+
+
+/*INGREDIENSER*/
+.ingredienser{
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 3.5%;
+}
+
+.ingredienser p{
+    padding-left: 30%;
+}
+
+.ingredienser_list{
+    width: 100%;
+}
+
+.ingredienser_list td{
+    border-bottom: 1px solid #ddd;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.ingredienser_list_left{
+    padding-left: 1%;
+}
+
+.ingredienser_list_right{
+    text-align: left;
+    padding-left: 6%;
+}
+
+
+
+/*FREMGANGSMÅDE*/
+.opskrift_indhold_right ol{
+    padding-left: 3%;
+}
+
+li{
+    padding-bottom: 4%;
+}
+
+
 
 
 
@@ -655,6 +729,88 @@ form input{
         padding-bottom: 3%;
 
         font-size: 2.8vw;
+    }
+
+
+
+
+
+
+
+
+    /*OPSKRIFT*/
+    .main_opskrift{
+        padding-top: 22%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .opskrift_indhold{
+        flex-direction: column;
+    }
+
+    .opskrift_indhold div{
+        width: 100%;
+    }
+
+    .opskrift_indhold img{
+        border: none;
+        margin-bottom: 15%;
+    }
+
+    .opskrift_indhold_right{
+        margin-left: 0;
+    }
+
+    .opskrift_indhold_right h1{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 80%;
+
+        position: relative;
+        margin-top: -52%;
+        margin-left: 10%;
+
+        color: white;
+        background-color: #34312f5b;
+    }
+
+
+
+    /*INGREDIENSER*/
+    .ingredienser{
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+
+    .ingredienser_list{
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+
+    
+
+    /*FREMGANGSMÅDE*/
+    .opskrift_indhold_right h3{
+        padding-top: 20%;
+        padding-bottom: 8%;
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+
+    .opskrift_indhold_right ol{
+        padding-left: 16%;
+        padding-right: 13%;
+    }
+
+    .opskrift_indhold_right p{
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+
+    li{
+        font-size: 2.8vw;
+        padding-bottom: 8%;
     }
 
 
