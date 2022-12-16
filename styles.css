@@ -719,6 +719,10 @@ form input{
         padding-bottom: 25%;
     }
 
+    #fettuccine_unknown{
+        display: none;
+    }
+
 
 
     /*VIS MERE KNAP*/
