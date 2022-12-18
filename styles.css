@@ -402,6 +402,11 @@ main section h2{
     float: right;
 }
 
+#question p span{
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
 #deltag{
     margin-right: 13%;
     width: 30%;
@@ -593,13 +598,13 @@ form input{
 
     /*DROPDOWN*/
     .dropdown {
-        width: 500px;
+        width: 530px;
         height: 240px;
         padding-top: 30px;
         padding-right: 50px;
         padding-left: 50px;
-        margin-top: 40px;
-        margin-right: -20px;
+        margin-top: 39px;
+        margin-right: -21px;
     }
 
     
