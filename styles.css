@@ -891,7 +891,7 @@ form input{
     }
     
     #betingelser{
-        font-size: 3.1vw;
+        font-size: 3.3vw;
         width: 100%;
     
         padding-right: 0;
@@ -900,11 +900,11 @@ form input{
     
     #betingelser span{
         padding-top: 0;
-        font-size: 3.1vw;
+        font-size: 3.3vw;
     }
     
     #deltag a{
-        font-size: 3.1vw;
+        font-size: 3.3vw;
     
         padding-left: 6%;
     }
