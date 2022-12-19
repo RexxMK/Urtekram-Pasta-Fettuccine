@@ -548,12 +548,12 @@ form input{
     }
 
     h3{
-        font-size: 4vw;
+        font-size: 4.5vw;
         padding-bottom: 6%;
     }
 
     p, td{
-        font-size: 3vw;
+        font-size: 3.2vw;
         line-height: 180%;
     }
 
@@ -732,7 +732,7 @@ form input{
         padding-top: 3%;
         padding-bottom: 3%;
 
-        font-size: 3vw;
+        font-size: 3.2vw;
     }
 
 
@@ -817,7 +817,7 @@ form input{
     }
 
     li{
-        font-size: 3vw;
+        font-size: 3.2vw;
         padding-bottom: 8%;
     }
 
@@ -838,7 +838,7 @@ form input{
     main section h2{
         padding-top: 15%;
 
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
 
 
@@ -876,7 +876,7 @@ form input{
     }
     
     form label{
-        font-size: 3vw;
+        font-size: 3.2vw;
     }
     
     form input{
@@ -887,7 +887,7 @@ form input{
     }
     
     #betingelser{
-        font-size: 2.5vw;
+        font-size: 2.7vw;
         width: 100%;
     
         padding-right: 0;
@@ -899,9 +899,9 @@ form input{
     }
     
     #deltag a{
-        font-size: 2.5vw;
+        font-size: 2.7vw;
     
-        padding-left: 23%;
+        padding-left: 6%;
     }
     
     .deltag_button{
@@ -916,7 +916,7 @@ form input{
         margin-left: 38%;
     
         background-color: #e2e2e2;
-        font-size: 3vw;
+        font-size: 3.2vw;
     }
     
     #white_space{
@@ -943,7 +943,7 @@ form input{
     }
     
     #uden_pesticider_span{
-        font-size: 3vw;
+        font-size: 3.2vw;
     }
 
     .img_right{
